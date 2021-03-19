@@ -43,3 +43,5 @@ jobs:
       solutionFile: './AwesomeApp.sln'
       configuration: 'Debug'
       packageApp: true
+      signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
+      signingProvisioningProfileID: '$(APPLE_PROV_PROFILE_UUID)'
