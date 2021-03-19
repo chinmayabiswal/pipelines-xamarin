@@ -40,6 +40,6 @@ jobs:
       
   - task: XamariniOS@2
     inputs:
-      solutionFile: '**/*.sln'
+      solutionFile: './AwesomeApp.sln'
       configuration: 'Debug'
       packageApp: true
