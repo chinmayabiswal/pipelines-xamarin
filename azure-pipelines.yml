@@ -35,7 +35,7 @@ jobs:
   - task: InstallAppleProvisioningProfile@1
     inputs:
       provisioningProfileLocation: 'secureFiles'
-      provProfileSecureFile: 'FC_Mobile.mobileprovision'
+      provProfileSecureFile: 'FC_P1Distribution.mobileprovision'
       removeProfile: true
       
   - task: XamariniOS@2
